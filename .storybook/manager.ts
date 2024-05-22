@@ -3,7 +3,7 @@ import { create } from '@storybook/theming/create'
 import logo from '../src/assets/images/logo-black.svg'
 
 const theme = create({
-  base: 'light',
+  base: 'dark',
 
   // // Base colors
   // colorSecondary: '#9FC7CD', // blue-dark-1
@@ -35,9 +35,9 @@ const theme = create({
   // inputBorderRadius: 4,
 
   // Brand assets
-  brandTitle: 'Mealdrop',
-  brandUrl: 'https://github.com/yannbf/mealdrop/',
-  brandImage: logo,
+  // brandTitle: 'Mealdrop',
+  // brandUrl: 'https://github.com/yannbf/mealdrop/',
+  // brandImage: logo,
 })
 
 addons.setConfig({
